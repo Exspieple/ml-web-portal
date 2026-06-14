@@ -69,6 +69,10 @@ main {
   overflow-y: auto;
 }
 
+footer {
+  opacity: 0.1;
+}
+
 ul {
  --grid-item--min-width: calc(var(--button-size) + 1rem);
 
@@ -87,6 +91,9 @@ ul {
   display: grid;
   justify-items: center;
   gap: 0.5rem;
+
+  color: white;
+  text-decoration: none;
 }
 
 .site-button:hover {
@@ -97,11 +104,11 @@ ul {
   width: var(--button-size);
   aspect-ratio: 1 / 1;
   border-radius: 30%;
+
+  box-shadow: 
+    0 0 3px rgba(255, 255, 255, 0.3);
 }
 
 .site-title {
   text-align: center;
-
-  color: white;
-  text-decoration: underline;
 }
