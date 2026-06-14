@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+:root {
+  --button-size: 8rem;
+
+  @media (max-width: 700px) {
+    --button-size: 5.5rem;
+  }
+}
+
 body {
   margin: 0;
   height: 100dvh;
@@ -40,13 +48,13 @@ header,
 footer {
   padding: 1rem;
   color: white;
-
-  padding-block: 3rem;
 }
 
 header {
   font-size: 2rem;
   font-weight: bold;
+
+  padding-block: 3rem;
 }
 
 main {
@@ -61,12 +69,8 @@ main {
   overflow-y: auto;
 }
 
-footer {
-
-}
-
 ul {
- --grid-item--min-width: 9rem;
+ --grid-item--min-width: calc(var(--button-size) + 1rem);
 
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(var(--grid-item--min-width), 1fr));
@@ -90,7 +94,7 @@ ul {
 }
 
 .site-icon {
-  width: 8rem;
+  width: var(--button-size);
   aspect-ratio: 1 / 1;
   border-radius: 30%;
 }
