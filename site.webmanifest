@@ -1,0 +1,22 @@
+{
+  "short_name": "Portal",
+  "name": "merletz.de Portal",
+  "icons": [
+    {
+      "src": "/assets/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "scope": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#FF7300",
+  "background_color": "#333333",
+  "description": "Alle Seiten von merletz.de in einer App."
+}

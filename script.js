@@ -7,7 +7,7 @@ sitesList.forEach((site) => {
         <li>
           <a href="${site.href}" target="_blank">
             <div class="site-button">
-              <img class="site-icon" src="${site.icon}" />
+              <img class="site-icon" src="/assets/${site.icon}" />
               <div class="site-title">${site.label}</div>
             </div>
           </a>
