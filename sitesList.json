@@ -1,0 +1,27 @@
+[
+    {
+        "label": "www.merletz.de",
+        "href": "https://www.merletz.de",
+        "icon": "android-chrome-192x192.png"
+    },
+    {
+        "label": "portal.merletz.de<br/>(Diese Seite)",
+        "href": "https://portal.merletz.de",
+        "icon": "android-chrome-192x192.png"
+    },
+    {
+        "label": "map.merletz.de",
+        "href": "https://map.merletz.de",
+        "icon": "android-chrome-192x192.png"
+    },
+    {
+        "label": "resources.merletz.de",
+        "href": "https://resources.merletz.de",
+        "icon": "android-chrome-192x192.png"
+    },
+    {
+        "label": "fn.merletz.de",
+        "href": "https://fn.merletz.de",
+        "icon": "android-chrome-192x192.png"
+    }
+]
