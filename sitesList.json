@@ -1,26 +1,26 @@
 [
     {
-        "label": "www.merletz.de",
+        "label": "Homepage",
         "href": "https://www.merletz.de",
         "icon": "android-chrome-192x192.png"
     },
     {
-        "label": "portal.merletz.de<br/>(Diese Seite)",
+        "label": "Portal",
         "href": "https://portal.merletz.de",
         "icon": "android-chrome-192x192.png"
     },
     {
-        "label": "map.merletz.de",
+        "label": "Map",
         "href": "https://map.merletz.de",
         "icon": "android-chrome-192x192.png"
     },
     {
-        "label": "resources.merletz.de",
+        "label": "Resources",
         "href": "https://resources.merletz.de",
         "icon": "android-chrome-192x192.png"
     },
     {
-        "label": "fn.merletz.de",
+        "label": "FamilyNews",
         "href": "https://fn.merletz.de",
         "icon": "android-chrome-192x192.png"
     }
