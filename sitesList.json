@@ -20,6 +20,11 @@
         "icon": "android-chrome-192x192.png"
     },
     {
+        "label": "Multiview",
+        "href": "https://multiview.merletz.de",
+        "icon": "android-chrome-192x192.png"
+    },
+    {
         "label": "FamilyNews",
         "href": "https://fn.merletz.de",
         "icon": "android-chrome-192x192.png"
